@@ -216,7 +216,7 @@ Three integer encoders are available, chosen based on context:
 - **Elias-Gamma** : used for the format version field.
 - **LEB128** : used for the total field count.
 
-Fibonacci coding is particularly compact for small values: `0` encodes in 2 bits, `1` in 3 bits, `2` in 3 bits, `3` in 4 bits. More research is required for dynamically choosing each encoding based on context.
+More research is required for dynamically choosing each encoding based on context.
 
 ### String compression via hex-encodable parts
 
